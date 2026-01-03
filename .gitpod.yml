@@ -12,8 +12,12 @@ tasks:
       sudo apt update
       sudo apt-get install terraform
 
+  - name: pulumi
+    before: |
+      curl -fsSL https://get.pulumi.com | sh
+
   - name: homebrew
-    before:
+    before: |
       /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
   - name: terraform-macbook
