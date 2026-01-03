@@ -8,4 +8,4 @@ aws cloudformation deploy \
 --template-file template.yaml \
 --no-execute-changeset \
 --region us-east-1 \
---stack-name $STACK_NAME \
+--stack-name $STACK_NAME
