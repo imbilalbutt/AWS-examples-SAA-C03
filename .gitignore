@@ -39,3 +39,11 @@ terraform.rc
 .DS_Store
 
 **.DS_Store
+.DS_Store
+*/**.DS_Store
+*/.DS_Store
+api/**.DS_Store
+api/.DS_Store
+api/sts/**.DS_Store
+api/sts/.DS_Store
+*.class
